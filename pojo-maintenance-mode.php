@@ -25,16 +25,6 @@ final class Pojo_Maintenance_Mode {
 	 */
 	private static $_instance = null;
 
-	/**
-	 * @var Pojo_A11y_Frontend
-	 */
-	public $frontend;
-
-	/**
-	 * @var Pojo_A11y_Customizer
-	 */
-	public $customizer;
-
 	public function load_textdomain() {
 		load_plugin_textdomain( 'pojo-maintenance-mode', false, basename( dirname( __FILE__ ) ) . '/languages' );
 	}
